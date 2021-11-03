@@ -1,0 +1,128 @@
+@import url('https://www.teahub.io/photos/full/288-2885940_loop-mario-wallpaper-gif.gif');
+body {
+background: fixed url("https://i.pinimg.com/originals/64/a1/85/64a185631767529e4238fec40e255f0a.jpg");
+background-size: cover;
+background-position: center center;
+}
+
+#in {
+  background-color: #1f0d24;
+  position: absolute;
+  left: 50%;
+  top: 66%;
+}
+
+#sv {
+  background-color: #1f0d24;
+  position: absolute;
+    left: 39%;
+    top: 66%;
+}
+
+.btn {
+  color: orange;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 15px;
+  margin: 8px;
+  font-weight: bold;
+  outline: none;
+}
+.btn:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+  color: green;
+}
+
+div {
+  text-align: center;
+}
+
+#logo {
+position: absolute;
+    left: 42%;
+    top: 18%;
+    width: 216px;
+    height: 219px;
+    border-radius: 158px;
+    border: 7.6px solid #ebebeb;
+}
+
+#logo:hover {
+  transition: 0.7s;
+  transform: scale(1.3); 
+}
+
+#titulo {
+    font-family: 'Copperplate', sans-serif;
+    position: absolute;
+    top: 43%;
+    right: 44%;
+    font-size: 50px;
+     text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+ul {
+    position: relative;
+    background: rgba(179, 104, 33, 0.459);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+  
+    border: 1px solid  rgba(252, 0, 76, 0.685);
+    margin: 7px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    display: block;
+}
+
+ul li:hover{
+   
+    background:  rgba(189, 111, 8, 0.719);
+}
+
+table {
+    width:  100%;
+}
+
+th {
+    background-color: rgb(196, 196, 196);
+}
+
+td {
+    text-align: Courier New;
+    border-bottom: rgb(144, 240, 160);
+    border-bottom-style: solid ;
+    border-bottom-width: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(185, 199, 198);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(185, 199, 198);
+}
+
+tr:hover{
+    background-color: rgb(231, 235, 13);
+}
+
+#conteudo {
+    width: 1200px;
+    margin: auto;
+    overflow-x: auto ;
+}
+
+#lincabecalho{
+    height: 40px;
+}
