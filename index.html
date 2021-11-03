@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilosHome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>Gatte um bom bot</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js"></script>
+  </head>
+  <body>
+    <nav> 
+            
+            <ul id="menu" > 
+                <li><a href="comandos.html" > Comandos</a></li>
+             
+            </ul>
+        </nav>
+    <div>
+      <img id="logo" src="https://cdn.discordapp.com/avatars/780206251518328863/04ca76a4ea6652f2b52c34fd406472ac.png?size=2048">
+      <p id="titulo">Gatte</p>
+    </div>
+    <div>
+      <buttom id="sv" class="btn" onclick="window.location='https://discord.gg/xxX9xWcsdq'">SUPORTE</buttom>
+     
+      <buttom id="in" class="btn" onclick="window.location='https://discordapp.com/oauth2/authorize?client_id=888878805882654750&scope=bot&permissions=2146958847'">INVITE</buttom>
+    </div>
+<body>
+    <h1 id="time"></h1>
+    <script>
+      function relogiof(){
+  let data = new Date()
+  document.getElementById("time").innerHTML = "Relogin :D : " + data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds()  + ":" + data.getMilliseconds()
+}
+setInterval(relogiof, 1)
+    </script>
+  </body>
+</html>
+  </body>
+
+</html>
